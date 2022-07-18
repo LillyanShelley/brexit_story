@@ -1,6 +1,6 @@
 Brexit
 ================
-Naomi Ekas
+Lillyan Shelley
 
 In September 2019, YouGov survey asked 1,639 GB adults the following
 question:
@@ -64,7 +64,7 @@ ggplot(brexit, aes(y = opinion, fill = opinion)) +
   geom_bar() +
   facet_wrap(~region,
     nrow = 1, labeller = label_wrap_gen(width = 12),
-    # ___
+    scales = "free_x"
   ) +
   guides(fill = FALSE) +
   labs(
