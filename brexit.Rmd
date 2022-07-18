@@ -141,3 +141,8 @@ brexit %>%
   theme_minimal() +
   scale_x_continuous(labels = percent)
 ```
+
+```{r}
+#guide(fill = guide_legend(reverse = TRUE))  #just filps around the legend, would have to relevel it
+```
+
